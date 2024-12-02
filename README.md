@@ -3,7 +3,7 @@
 
  - Using MNIST pre-trained models as the test model
  - Run a white box adversarial attack (control experiment) using the torchvision tutorial. Use the evaluation code for the next steps. -> gfsm_example.ipynb
- - Generate a basic UI that will run the evaluation on an image -> ui folder, run using app.py
+ - Generate a basic UI that will run the evaluation on an image -> ui folder, run using app.py in code folder
 
  - Then move onto class specific attack that humans cannot recognise but MNIST will misclassify. -> model training in train_ae.py
  - Train an auto encoder  on the train section of the pytorch MNIST data set (leftover for downstream evaluation) to create a latent space. Train a decoder to go back to the image afterwords. Evaluate performance. Train until the workflow generates realistic images. -> Done (could be better)
